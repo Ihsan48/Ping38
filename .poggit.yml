@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Henry12960/ping38
+build-by-default: true
+branches:
+- main
+projects:
+  ping38:
+    path: ""
+...
