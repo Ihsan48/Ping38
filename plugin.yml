@@ -1,0 +1,8 @@
+---
+name: Ping38
+version: 1.0
+main: Henrydm\Ping38\Ping38
+api: 4.0.0 
+author: Henry12960
+Website: https://github.com/Henry12960
+...

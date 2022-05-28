@@ -1,0 +1,5 @@
+---
+#Use {ping] for display player ping
+#Use "" for change text color 
+Format: "6Ping: b{ping}ms"
+...
