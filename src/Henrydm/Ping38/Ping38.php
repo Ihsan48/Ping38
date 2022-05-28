@@ -8,7 +8,7 @@ class Ping38 extends PluginBase{
 	
 	protected static $instance;
 	
-	public function onEnable():void{
+	public function onEnable() : void {
 		self::$instance=$this;
 		@mkdir($this->getDataFolder());
 		$this->saveDefaultConfig();
