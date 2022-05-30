@@ -7,8 +7,8 @@ use pocketmine\scheduler\Task;
 class PingTagTask extends Task {
 	
 	public function onRun(int $tick) : void {
-		foreach(PingTag()->getInstance()->getServer()->getOnlinePlayers() as $player){
-			$tag=PingTagget()->Instance()->getConfig()->get("Format");
+		foreach(PingTag::getInstance()->getServer()->getOnlinePlayers() as $player){
+			$tag=PingTagget::Instance()->getConfig()->get("Format");
 			$tag=str_replace("{ping}", $player->getPing(), $tag);
 			$player->setScoreTag($tag);
 		}
